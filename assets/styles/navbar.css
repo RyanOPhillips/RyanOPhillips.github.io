@@ -1,0 +1,31 @@
+.mainNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.mainNav > ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.mainNav > ul > li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.active{
+  color: red;
+}
+
+
+@media screen and (max-width: 600px){
+  .mainNav > ul{
+    flex-direction: column;
+  }
+}
