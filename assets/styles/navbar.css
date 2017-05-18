@@ -2,25 +2,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 .mainNav > ul{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
+  padding: 0;
 }
 
 .mainNav > ul > li{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  font-family: 'Architects Daughter', cursive;
+  cursor: pointer;
 }
 
 .active{
-  color: red;
+  color: rgb(65, 193, 244);
 }
 
 

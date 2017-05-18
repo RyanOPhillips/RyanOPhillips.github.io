@@ -1,1 +1,8 @@
-<h1>Photography</h1>
+<div class="photographySection row">
+  <div class="photoGroup col-xs-12 col-sm-6 col-md-4" ng-repeat="photography in $ctrl.photography">
+    <div class="grid-item">
+      <img class= "eachPhoto" src="{{photography.imageURL}}" alt="" />
+      <h4 class="photoTitle">{{photography.title}}</h4>
+    </div>
+  </div>
+</div>

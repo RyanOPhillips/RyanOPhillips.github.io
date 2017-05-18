@@ -7,7 +7,7 @@
       controller: ResumeController
     })
   function ResumeController(){
-
+    
 
   }
 }())

@@ -1,0 +1,52 @@
+.homeSection{
+  background-image: url("/media/aspen/DSC_3109.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeTitleSquare{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 15px solid white;
+  font-family: 'Architects Daughter', cursive;
+  /*text-shadow: 1px 1px black;*/
+  color: white;
+  height: 380px;
+  width: 380px;
+}
+
+.homeName{
+  font-size: 60px;
+  margin: 0;
+}
+
+.locationTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Architects Daughter', cursive;
+  margin-top: 0px;
+}
+
+.locationName{
+  color: white;
+  font-family: 'Architects Daughter', cursive;
+  margin: 5px;
+  margin-bottom: 0;
+}
+
+.linkedIn, .gitHub, .instagram {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}

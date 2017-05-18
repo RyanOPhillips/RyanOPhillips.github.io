@@ -1,0 +1,27 @@
+.photoTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.photoGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+.eachPhoto{
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  margin: 10px auto;
+}
