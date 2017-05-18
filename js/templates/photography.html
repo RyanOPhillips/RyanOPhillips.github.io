@@ -1,8 +1,6 @@
-<div class="photographySection row">
-  <div class="photoGroup col-xs-12 col-sm-6 col-md-4" ng-repeat="photography in $ctrl.photography">
-    <div class="grid-item">
-      <img class= "eachPhoto" src="{{photography.imageURL}}" alt="" />
+<div class="photoCollection" masonry='{ "transitionDuration" : "0.4s" , "itemSelector" : ".photoGroup", "gutter": 10}'>
+  <div class="photoGroup" masonry-tile ng-repeat="photography in $ctrl.photography">
+      <img class= "eachPhoto" ng-src="{{photography.imageURL}}" alt="" />
       <h4 class="photoTitle">{{photography.title}}</h4>
-    </div>
   </div>
 </div>

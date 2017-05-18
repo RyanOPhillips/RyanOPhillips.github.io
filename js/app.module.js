@@ -1,4 +1,4 @@
 (function (){
   'use strict'
-  angular.module('app',['ui.router', 'ui.bootstrap'])
+  angular.module('app',['ui.router', 'ui.bootstrap', 'masonry'])
 }())
