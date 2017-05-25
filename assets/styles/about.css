@@ -10,29 +10,39 @@
   justify-content: center;
   align-items: center;
   width: 1000px;
-  font-size: 30px;
-  margin: 0;
+  font-size: 28px;
+  margin-top: 20px;
+  padding-top: 66px;
   text-align: center;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .aboutSection > .aboutImg {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1000px;
-  height: 580px;
-  margin-top: 20px;
+  width: 800px;
+  height: 500px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px){
+  .aboutSection{
+    padding-top: 240px;
+  }
 }
 
 @media screen and (max-width: 600px){
   .aboutSection > .aboutImg {
     width: 400px;
-    height: 200px;
+    height: 300px;
   }
-
+}
   @media screen and (max-width: 600px){
     .aboutSection > .aboutText{
       flex-direction: column;
       font-size: 20px;
       width: 400px;
   }
+}

@@ -3,11 +3,22 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+}
+
+.bigHomeSection{
+  padding-top: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .homeTitleSquare{
@@ -21,6 +32,8 @@
   color: white;
   height: 380px;
   width: 380px;
+  box-shadow: 0 0px 10px rgba(0,0,0,0.16);
+  margin-top: 85px;
 }
 
 .homeName{
@@ -49,4 +62,125 @@
   height: 30px;
   width: 30px;
   margin: 5px;
+}
+
+.downArrow{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 600px){
+  .homeSection{
+    padding-top: 200px;
+  }
+}
+
+/*#anchorTag{
+  height: 1px;
+  width: 1px;
+}*/
+/************************CONTACT SECTION**************************/
+.upArrow{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.scrollAreaBottom{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contactSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm{
+  font-family: 'Architects Daughter', cursive;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+
+.infoParagraph{
+  font-size: 30px;
+  font-family: 'Architects Daughter', cursive;
+  width: 460px;
+  text-align: center;
+  padding-right: 10px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;*/
+}
+
+.contactParagraph{
+  font-size: 24px;
+  font-family: 'Architects Daughter', cursive;
+  width: 460px;
+  text-align: center;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+input{
+  padding: 10px;
+  margin: 10px;
+}
+
+textarea{
+  padding: 10px;
+  margin: 10px;
+  height: 300px;
+}
+
+.emailSpan{
+  color: red;
+}
+
+.contactIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButton{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0;
+  border: .5px solid black;
+}
+
+.emailAddress{
+  color: rgb(65, 193, 244)
+}
+
+@media screen and (max-width: 600px){
+  .contactSection{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

@@ -1,22 +1,68 @@
-<div class="homeSection">
-    <div class="homeTitleSquare">
-      <h1 class="homeName">Ryan Phillips</h1>
-      <h2 class="homeTitle">Web Developer</h2>
+<div id="upAnchor"></div>
+<div class="bigHomeSection">
+  <div class="homeSection">
+      <div class="homeTitleSquare">
+        <h1 class="homeName">Ryan Phillips</h1>
+        <h2 class="homeTitle">Web Developer</h2>
+      </div>
+      <div class="locationTitle">
+        <h3 id="locationName" class="locationName">Denver, Colorado</h3>
+      </div>
+    <div class="">
+      <div class="titleIcons">
+        <a href="https://www.linkedin.com/in/ryanophillips/">
+          <img class="linkedIn" src="media/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/RyanOPhillips">
+          <img class="gitHub" src="media/github.png" alt="GitHub" />
+        </a>
+        <a href="https://www.instagram.com/travelinghoody/?hl=en">
+          <img class="instagram" src="media/instagram-white.png" alt="Instagram" />
+        </a>
+      </div>
     </div>
-    <div class="locationTitle">
-      <h3 class="locationName">Denver, Colorado</h3>
+    <div class="scrollArea">
+      <a du-smooth-scroll href="#submitButton">
+        <img class="downArrow" src="media/white-down-arrow.png" alt="Down Arrow" />
+      </a>
     </div>
+  </div>
+  <!-- ***************************  CONTACT SECTION  *************************** -->
   <div class="">
-    <div class="titleIcons">
+    <div class="upArrowDiv">
+      <div class="scrollAreaBottom">
+        <a du-smooth-scroll href="#upAnchor">
+          <img class="upArrow" src="media/black-up-arrow.png" alt="Up Arrow" />
+        </a>
+      </div>
+    </div>
+    <section class="contactSection">
+      <div class="contactInformation">
+        <p class="infoParagraph">
+          Thanks for visiting my site! Please feel free to reach out to me using the form or the contact info below
+        </p>
+        <p class="contactParagraph">
+          <!-- Ryan Phillips -->
+          <br /><a class="emailAddress" href="mailto:rphillips4417@gmail.com">rphillips4417@gmail.com</a><br />
+        </p>
+  <div class="">
+    <div class="contactIcons">
       <a href="https://www.linkedin.com/in/ryanophillips/">
-        <img class="linkedIn" src="media/linkedin.png" alt="LinkedIn" />
+        <img class="linkedIn" src="media/linkedin-black.svg" alt="linkedIn Icon" />
       </a>
       <a href="https://github.com/RyanOPhillips">
-        <img class="gitHub" src="media/github.png" alt="GitHub" />
-      </a>
-      <a href="https://www.instagram.com/travelinghoody/?hl=en">
-        <img class="instagram" src="media/instagram-white.png" alt="Instagram" />
+        <img class="gitHub" src="media/github-circle.png" alt="GitHub Icon" />
       </a>
     </div>
+  </div>
+      </div>
+      <form class="contactForm" action="https://formspree.io/rphillips4417@gmail.com" method="post">
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="company" placeholder="Company (Optional)">
+        <textarea type="message" name="message" placeholder="Your Message Here"></textarea>
+        <button id="submitButton" class="submitButton" type="submit" name="submitButton">Send</button>
+      </form>
+    </section>
   </div>
 </div>

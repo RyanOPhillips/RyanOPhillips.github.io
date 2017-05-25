@@ -1,9 +1,7 @@
 <div class="projectSection row">
   <div class="eachProject col-xs-12 col-sm-6 col-md-4" ng-repeat="project in $ctrl.projects">
-    <h1>{{project.title}}</h1>
-    <p>{{project.description}}</p>
+    <a class="projectLink" href={{project.link}}><h1 class="projectTitle">{{project.title}}</h1></a>
     <img src="{{project.imageURL}}" alt="" />
+    <p class="projectDescription">{{project.description}}</p>
   </div>
-
-
 </div>

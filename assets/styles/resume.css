@@ -5,4 +5,11 @@ embed {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 66px;
+}
+
+@media screen and (max-width: 600px){
+  .resumeSection{
+    padding-top: 200px;
+  }
 }

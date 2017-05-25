@@ -8,9 +8,10 @@
     })
   function ProjectsController(){
     const vm = this
-    vm.projects =[{title: "Title 1", description: "First project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"}, {title: "Title 2", description: "Second project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"}, {title: "Title 3", description: "Third project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"},
-    {title: "Title 4", description: "Fourth project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"}, {title: "Title 5", description: "Fifth project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"}, {title: "Title 6", description: "Sixth project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"}, {title: "Title 7", description: "Seventh project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"},
-    {title: "Title 8", description: "Eighth project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"}, {title: "Title 9", description: "Ninth project description", imageURL: "https://www.planwallpaper.com/static/images/cool_cat.jpg"}
+    vm.projects =[{title: "Brew Mapper", description: "A web app that uses Google Maps API and BreweryDB API to locate the closest breweries in a given location", imageURL: "media/brewmapper.jpg", link: "https://brew-mapper.firebaseapp.com/"},
+    {title: "RunningSocial", description: "A mobile app using Swift and Apple Maps to allow users to create and map a run for others to join", imageURL: "media/RunningSocialApp.jpg", link: "https://github.com/RunningSocial/RunningSocial"},
+    {title: "Star Wars Reddit", description: "A web app using AngularJS to dynamically add, up-vote or down-vote, and comment on blog posts", imageURL: "media/Star_Wars.png", link: "https://star-wars-reddit.firebaseapp.com/"},
+    {title: "Movie Ratings", description: "A web app which allows a user to add new movies to a database and rate them as desired", imageURL: "media/Movies.jpg", link:"https://moviecrud-ryan.herokuapp.com"},
 ]
 
   }
