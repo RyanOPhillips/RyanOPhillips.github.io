@@ -5,13 +5,32 @@
   flex-direction: column;
 }
 
+.infoList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  padding: 0px;
+  width: 1200px;
+  margin-bottom: 0;
+}
+
+.eachInfo{
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+
 .aboutSection > .aboutText {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1000px;
+  width: 1200px;
   font-size: 28px;
-  margin-top: 20px;
   padding-top: 66px;
   text-align: center;
   font-family: 'Architects Daughter', cursive;
@@ -24,7 +43,7 @@
   width: 800px;
   height: 500px;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 600px){
