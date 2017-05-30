@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: row;
   list-style: none;
   padding: 0px;
@@ -23,6 +24,17 @@
   align-items: center;
   flex-direction: row;
   list-style: none;
+}
+
+.textBoxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 28px;
+  width: 800px;
+  margin: auto;
 }
 
 .aboutSection > .aboutText {
