@@ -33,5 +33,6 @@
         url:'/photography',
         component: 'photography',
     })
+  $urlRouterProvider.otherwise('/')  
   }
 }())
