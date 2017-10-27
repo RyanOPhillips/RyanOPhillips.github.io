@@ -25,6 +25,11 @@
       {title: "Hong Kong", imageURL: "media/china/DSC_1363.jpg"},
       {title: "La Alhambra, Granada, Spain", imageURL: "media/spain/DSCN1228.jpg"},
       {title: "Catedral de Sevilla, Sevilla, Spain", imageURL: "media/spain/DSCN1406.jpg"},
+      {title: "Phuket, Thailand", imageURL: "media/thailand/DSCN0623.jpg"},
+      {title: "Belfast, Northern Ireland", imageURL: "media/ireland/DSCN0371.jpg"},
+      {title: "Masai Mara, Kenya", imageURL: "media/kenya/DSCN0035.jpg"},
+      {title: "Chicago, Illinois", imageURL: "media/usa/DSC_0024.jpg"},
+      {title: "Masai Mara, Kenya", imageURL: "media/kenya/DSCN9647_2.jpg"},
     ]
 
 
