@@ -58,6 +58,7 @@ h1 {
 
 .projectLink:hover {
  border-bottom-color: black;
+ text-decoration: underline;
 }
 
 @media screen and (max-width: 600px){
