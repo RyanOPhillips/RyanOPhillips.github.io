@@ -24,7 +24,15 @@
   align-items: center;
   flex-direction: row;
   list-style: none;
-  transition: all 1s ease-in-out;
+  /*transition: all 1s ease-in-out;*/
+}
+
+.fade.ng-mouseenter {
+  animation: 2s appear;
+}
+
+.fade.ng-mouseleave {
+  animation: 1s disappear;
 }
 
 .textBoxes{
